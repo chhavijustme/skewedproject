@@ -1,13 +1,10 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
 class PortfolioItem extends Component {
   render() {
-  
-      return (
+    return (
       <div className="portfolio-item">
-      <p>Yayyyy</p>
-
-        
+        <p>Yayyyy</p>
       </div>
     );
   }
