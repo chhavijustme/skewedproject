@@ -1,11 +1,19 @@
 import React, {Component} from 'react';
 
+
 function PortfolioItem() {
   return (
-    <div className="portfolio-item">
-      <p>{'Yayyyy'}</p>
+    <div>
+      <div className="card">
+
+        <a><img className="imagestyle" src={require('../img/kuori1.jpg')} /></a>
+        <div className="mantra">{'We might turn into points and lines!'}</div>
+
+      </div>
     </div>
+
   );
 }
+
 
 export default PortfolioItem;

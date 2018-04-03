@@ -8,6 +8,8 @@ function Portfolio() {
       <PortfolioItem />
       <PortfolioItem />
       <PortfolioItem />
+      <PortfolioItem />
+
     </div>
   );
 }
