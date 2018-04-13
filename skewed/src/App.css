@@ -3,7 +3,15 @@
   background-color: #424242;
   height: 150px;
   padding-top: 20px;
+  
+}
+
+
+.title {
+  text-align: center;
   color: white;
+  font-size: 3em;
+  font-weight: 400;
 }
 
 .card {
