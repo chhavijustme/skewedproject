@@ -4,6 +4,9 @@ import Header from './components/Header';
 import Portfolio from './components/Portfolio';
 import PortfolioItem from './components/PortfolioItem';
 
+import {Button, Modal} from 'react-bootstrap';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 
 import './App.css';
 
@@ -16,8 +19,8 @@ function App() {
         title="Skewed Ratio Project"
       />
 
-
       <Portfolio />
+      <Button bsStyle="success"> Are you awesome? or Are you awesome?</Button>
     </div>
 
   );

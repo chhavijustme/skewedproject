@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 
+
 import PortfolioItem from './PortfolioItem';
 
 const portfolioitems = require('../portfolioitems.json');

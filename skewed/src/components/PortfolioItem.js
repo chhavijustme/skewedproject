@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import {Thumbnail} from 'react-bootstrap';
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 class PortfolioItem extends React.Component {
   render() {
@@ -6,17 +8,10 @@ class PortfolioItem extends React.Component {
 
     return (
       <div>
-        <div className="card">
+      <Thumbnail href="#" src={avatar} />
+        
 
-          <a><img
-            className="imagestyle"
-            src={avatar}
-             />
-          </a>
-
-          <div className="mantra">{mantra}</div>
-
-        </div>
+            
       </div>
 
     );
